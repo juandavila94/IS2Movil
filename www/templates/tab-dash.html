@@ -1,0 +1,21 @@
+<ion-view view-title="IS2">
+  <ion-content class="padding">
+
+ 
+   <div >  
+    <h1>Ingenieria de software II</h1>  
+    <h2>LISTA DE PAQUETES RECIBIDOS</h2>  
+      <ion-list>
+  <ion-item ng-repeat="item in result">
+      <h2>id:{{item.id}}</h2>  
+      <h2>destinatario:{{item.destinatario}}</h2>  
+      <h2>remitente:{{item.remitente}}</h2>  
+      <h2>fecha:{{item.fecha}}</h2>  
+      <h2>tipo:{{item.tipo}}</h2>  
+      <h2>cantidad:{{item.cantidad}}</h2>  
+      <h2>estado:{{item.estado}}</h2>  
+  </ion-item>
+</ion-list>
+</div>
+  </ion-content>
+</ion-view>

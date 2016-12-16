@@ -1,0 +1,10 @@
+{
+  "name": "is2",
+  "app_id": "3d5abe2f",
+  "proxies": [
+    {
+      "path": "/ConsultarPaquete",
+      "proxyUrl": "http://localhost/WebService1.asmx/ConsultarPaquete"
+    }
+  ]
+}
